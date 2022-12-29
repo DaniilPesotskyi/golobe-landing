@@ -1,0 +1,137 @@
+.reserve-block {
+    padding: 24px;
+    margin-top: -100px;
+
+    background-color: $clr-neutrals;
+    border-radius: 16px;
+}
+
+.reserve-type {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+    margin-bottom: 48px;
+}
+
+.boundary-line {
+    width: 1px;
+    height: 48px;
+    background-color: #D7E2EE;
+}
+
+.reserve-type__item {}
+
+.reserve-type__button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 12px 0px;
+
+    border: 0;
+    background-color: transparent;
+
+    font-family: $montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color: $clr-secondary-text;
+
+    cursor: pointer;
+}
+
+.reserve-type__icon-wrap {
+}
+
+.reserve-form {
+}
+
+.reserve-form__form-inputs {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 32px;
+}
+
+.reserve-form__input-wrap {
+    position: relative;
+}
+
+.reserve-form__input-label {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+
+    padding: 0 5px;
+
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    background-color: #fff;
+    border-radius: 40%;
+
+    font-family: $montserrat;
+    font-size: 16px;
+    line-height: 1.25;
+
+    transition: transform 150ms;
+}
+
+.reserve-form__input:not(:placeholder-shown) + .reserve-form__input-label,
+.reserve-form__input:focus + .reserve-form__input-label {
+    transform: translateY(-185%);
+}
+
+.reserve-form__input {
+    height: 56px;
+    padding-left: 16px;
+
+    border: 1px solid #79747E;
+    border-radius: 4px;
+
+    font-family: $montserrat;
+    font-size: 16px;
+    line-height: 1.25;
+
+    outline: 0;
+}
+
+.reserve-form__input--direction {
+    width: 324px;
+}
+
+.reserve-form__input--trip-type {
+    width: 140px;
+}
+
+.reserve-form__input--date {
+    width: 324px;
+}
+
+.reserve-form__input--data {
+    width: 324px;
+}
+
+.reserve-form__submit {
+    display: flex;
+    gap: 24px;
+
+    margin-left: 854px;
+}
+
+.reserve-form__icon-wrap {}
+
+.reserve-form__promo-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.reserve-form__submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}

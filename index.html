@@ -64,6 +64,7 @@
                             Flights
                         </button>
                     </li>
+                    <li class="boundary-line"></li>
                     <li class="reserve-type__item">
                         <button type="button" class="reserve-type__button">
                             <svg class="reserve-type__icon-wrap" width="24" height="24">
@@ -74,31 +75,33 @@
                     </li>
                 </ul>
                 <form action="#" class="reserve-form">
-                    <div class="reserve-form__input-wrap">
-                        <label class="reserve-form__input-label" for="">From - To</label>
-                        <input type="text" class="reserve-form__input">
-                    </div>
-                    <div class="reserve-form__input-wrap">
-                        <label class="reserve-form__input-label" for="">Trip</label>
-                        <input type="text" class="reserve-form__input">
-                    </div>
-                    <div class="reserve-form__input-wrap">
-                        <label class="reserve-form__input-label" for="">Depart- Return</label>
-                        <input type="text" class="reserve-form__input">
-                    </div>
-                    <div class="reserve-form__input-wrap">
-                        <label class="reserve-form__input-label" for="">Passenger - Class</label>
-                        <input type="text" class="reserve-form__input">
+                    <div class="reserve-form__form-inputs">
+                        <div class="reserve-form__input-wrap">
+                            <input type="text" class="reserve-form__input reserve-form__input--direction" placeholder=" ">
+                            <label class="reserve-form__input-label" for="">From - To</label>
+                        </div>
+                        <div class="reserve-form__input-wrap">
+                            <input type="text" class="reserve-form__input reserve-form__input--trip-type" placeholder=" ">
+                            <label class="reserve-form__input-label" for="">Trip</label>
+                        </div>
+                        <div class="reserve-form__input-wrap">
+                            <input type="text" class="reserve-form__input reserve-form__input--date" placeholder=" ">
+                            <label class="reserve-form__input-label" for="">Depart- Return</label>
+                        </div>
+                        <div class="reserve-form__input-wrap">
+                            <input type="text" class="reserve-form__input reserve-form__input--data" placeholder=" ">
+                            <label class="reserve-form__input-label" for="">Passenger - Class</label>
+                        </div>
                     </div>
                     <div class="reserve-form__submit">
-                        <button type="button">
-                            <svg class="reserve-form__icon-wrap" width="24" height="24">
+                        <button class="reserve-form__promo-btn promo-btn" type="button">
+                            <svg class="reserve-form__icon-wrap" width="16" height="16">
                                 <use href="./images/icons.svg#icon-add"></use>
                             </svg>
                             Add Promo Code
                         </button>
-                        <button type="submit">
-                            <svg class="reserve-form__icon-wrap" width="24" height="24">
+                        <button type="submit" class="reserve-form__submit-btn show-smth">
+                            <svg class="reserve-form__icon-wrap" width="16" height="16">
                                 <use href="./images/icons.svg#icon-paper-plane"></use>
                             </svg>
                             Show Filghts
