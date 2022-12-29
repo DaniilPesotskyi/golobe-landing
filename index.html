@@ -12,15 +12,104 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header>
-        <div class="header-hero-container">
+    <header class="page-header">
+        <div class="header-hero-container page-header-bg">
             <div class="header">
-                <nav></nav>
+                <nav class="site-navigation">
+                    <ul class="site-navigation__list">
+                        <li class="site-navigation__item">
+                            <a class="site-navigation__link" href="#">
+                                <svg class="site-navigation__icon-wrap" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-airplane"></use>
+                                </svg>
+                                Find Flight
+                            </a>
+                        </li>
+                        <li class="site-navigation__item">
+                            <a class="site-navigation__link" href="#">
+                                <svg class="site-navigation__icon-wrap" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-bed"></use>
+                                </svg>
+                                Find Flight
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <img class="logo-light" src="./images/logo-light.svg" alt="website logo" width="110" height="36">
+                <ul class="authorization-btns">
+                    <li class="authorization-btns__item">
+                        <button type="button" class="authorization-btns__btn login-btn">Login</button>
+                    </li>
+                    <li class="authorization-btns__item">
+                        <button type="button" class="authorization-btns__btn sign-up-btn">Sign up</button>
+                    </li>
+                </ul>
             </div>
             <div class="hero">
-
+                <p class="hero__before-text">Helping Others</p>
+                <h1 class="hero__title">Live & Travel</h1>
+                <p class="hero__sub-text">Special offers to suit your plan</p>
             </div>
         </div>
     </header>
+    <main>
+        <section class="section-reserve">
+            <div class="container reserve-block">
+                <ul class="reserve-type">
+                    <li class="reserve-type__item">
+                        <button type="button" class="reserve-type__button">
+                            <svg class="reserve-type__icon-wrap" width="24" height="24">
+                                <use href="./images/icons.svg#icon-airplane"></use>
+                            </svg>
+                            Flights
+                        </button>
+                    </li>
+                    <li class="reserve-type__item">
+                        <button type="button" class="reserve-type__button">
+                            <svg class="reserve-type__icon-wrap" width="24" height="24">
+                                <use href="./images/icons.svg#icon-bed"></use>
+                            </svg>
+                            Stays
+                        </button>
+                    </li>
+                </ul>
+                <form action="#" class="reserve-form">
+                    <div class="reserve-form__input-wrap">
+                        <label class="reserve-form__input-label" for="">From - To</label>
+                        <input type="text" class="reserve-form__input">
+                    </div>
+                    <div class="reserve-form__input-wrap">
+                        <label class="reserve-form__input-label" for="">Trip</label>
+                        <input type="text" class="reserve-form__input">
+                    </div>
+                    <div class="reserve-form__input-wrap">
+                        <label class="reserve-form__input-label" for="">Depart- Return</label>
+                        <input type="text" class="reserve-form__input">
+                    </div>
+                    <div class="reserve-form__input-wrap">
+                        <label class="reserve-form__input-label" for="">Passenger - Class</label>
+                        <input type="text" class="reserve-form__input">
+                    </div>
+                    <div class="reserve-form__submit">
+                        <button type="button">
+                            <svg class="reserve-form__icon-wrap" width="24" height="24">
+                                <use href="./images/icons.svg#icon-add"></use>
+                            </svg>
+                            Add Promo Code
+                        </button>
+                        <button type="submit">
+                            <svg class="reserve-form__icon-wrap" width="24" height="24">
+                                <use href="./images/icons.svg#icon-paper-plane"></use>
+                            </svg>
+                            Show Filghts
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

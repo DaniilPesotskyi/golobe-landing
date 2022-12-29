@@ -1,0 +1,31 @@
+.login-btn {
+    font-family: $montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: $clr-neutrals;
+
+    border: 0;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.sign-up-btn {
+    padding: 15px 24px;
+    width: 104px;
+    height: 48px;
+
+    border: 0;
+    border-radius: 8px;
+
+    background-color: $clr-neutrals;
+
+    font-family: $montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: $clr-secondary-text;
+
+    cursor: pointer;
+}
