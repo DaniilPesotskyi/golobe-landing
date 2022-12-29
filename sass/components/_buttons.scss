@@ -77,3 +77,15 @@
 
     cursor: pointer;
 }
+
+.section-button {
+    padding: 11px 16px;
+
+    border: 1px solid $clr-mint-green;
+
+    font-family: $montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: $clr-secondary-text;
+}

@@ -116,6 +116,45 @@ img {
   cursor: pointer;
 }
 
+.section-button {
+  padding: 11px 16px;
+  border: 1px solid #8DD3BB;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #112211;
+}
+
+.section-title-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.section-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #112211;
+}
+
 .page-header {
   padding-top: 30px;
 }
@@ -215,6 +254,7 @@ img {
 .reserve-block {
   padding: 24px;
   margin-top: -100px;
+  margin-bottom: 80px;
   background-color: #FFFFFF;
   border-radius: 16px;
 }
@@ -361,4 +401,57 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 4px;
+}
+
+.directions__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 80px;
+}
+
+.directions__item {
+  -ms-flex-preferred-size: calc((100% - 64px) / 3);
+      flex-basis: calc((100% - 64px) / 3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  padding: 16px;
+  -webkit-box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+          box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+
+.directions__title {
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #112211;
+  opacity: 0.7;
+}
+
+.directions__tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 21px;
+}
+
+.directions__tag {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #112211;
 }/*# sourceMappingURL=main.css.map */
