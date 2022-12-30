@@ -1,0 +1,50 @@
+.reserve-offers {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 70px;
+}
+
+.reserve-offers__wrap {
+    position: relative;
+}
+
+.reserve-offers__img {
+
+}
+
+.reserve-offers__data {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+}
+
+.reserve-offers__title {
+    text-align: center;
+    margin-bottom: 8px;
+
+    font-family: $gothic;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: 8px;
+    color: $clr-neutrals;
+}
+
+.reserve-offers__text {
+    width: 389px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: $montserrat;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: $clr-neutrals;
+}
+
+.reserve-offers__btn {
+    margin-left: auto;
+    margin-right: auto;
+}

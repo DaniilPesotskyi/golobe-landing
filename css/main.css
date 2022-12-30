@@ -89,6 +89,13 @@ img {
 }
 
 .show-smth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
   width: 150px;
   height: 50px;
   padding: 16px;
@@ -454,4 +461,63 @@ img {
   font-size: 14px;
   line-height: 1.2;
   color: #112211;
+}
+
+.directions__tag:not(:last-child)::after {
+  content: " ";
+  position: absolute;
+  top: 40%;
+  left: 120%;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.reserve-offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.reserve-offers__wrap {
+  position: relative;
+}
+
+.reserve-offers__data {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+}
+
+.reserve-offers__title {
+  text-align: center;
+  margin-bottom: 8px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 40px;
+  line-height: 1.25;
+  letter-spacing: 8px;
+  color: #FFFFFF;
+}
+
+.reserve-offers__text {
+  width: 389px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.reserve-offers__btn {
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=main.css.map */
