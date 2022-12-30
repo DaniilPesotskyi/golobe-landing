@@ -77,12 +77,14 @@
     font-size: 16px;
     line-height: 1.25;
 
-    transition: transform 150ms;
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .reserve-form__input:not(:placeholder-shown) + .reserve-form__input-label,
 .reserve-form__input:focus + .reserve-form__input-label {
     transform: translateY(-185%);
+    color: $clr-input-focus;
 }
 
 .reserve-form__input {
@@ -97,6 +99,12 @@
     line-height: 1.25;
 
     outline: 0;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        border: 1px solid $clr-input-focus;
+    }
 }
 
 .reserve-form__input--direction {

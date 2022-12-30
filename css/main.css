@@ -108,6 +108,14 @@ img {
   line-height: 1.2;
   color: #112211;
   cursor: pointer;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.show-smth:hover, .show-smth:focus {
+  background-color: #64be9f;
+}
+.show-smth:active {
+  background-color: #37b689;
 }
 
 .promo-btn {
@@ -126,11 +134,17 @@ img {
 .section-button {
   padding: 11px 16px;
   border: 1px solid #8DD3BB;
+  border-radius: 4px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   color: #112211;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.section-button:hover, .section-button:focus {
+  border: 1px solid #64be9f;
 }
 
 .section-title-block {
@@ -329,24 +343,27 @@ img {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 1.25;
-  -webkit-transition: -webkit-transform 150ms;
-  transition: -webkit-transform 150ms;
-  transition: transform 150ms;
-  transition: transform 150ms, -webkit-transform 150ms;
+  -webkit-transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1), color 150ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .reserve-form__input:not(:-moz-placeholder-shown) + .reserve-form__input-label {
   transform: translateY(-185%);
+  color: #5bc4a1;
 }
 
 .reserve-form__input:not(:-ms-input-placeholder) + .reserve-form__input-label {
   transform: translateY(-185%);
+  color: #5bc4a1;
 }
 
 .reserve-form__input:not(:placeholder-shown) + .reserve-form__input-label,
 .reserve-form__input:focus + .reserve-form__input-label {
   -webkit-transform: translateY(-185%);
           transform: translateY(-185%);
+  color: #5bc4a1;
 }
 
 .reserve-form__input {
@@ -358,6 +375,11 @@ img {
   font-size: 16px;
   line-height: 1.25;
   outline: 0;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.reserve-form__input:focus {
+  border: 1px solid #5bc4a1;
 }
 
 .reserve-form__input--direction {
@@ -421,6 +443,8 @@ img {
 }
 
 .directions__item {
+  position: relative;
+  overflow: hidden;
   -ms-flex-preferred-size: calc((100% - 64px) / 3);
       flex-basis: calc((100% - 64px) / 3);
   display: -webkit-box;
@@ -435,6 +459,14 @@ img {
           box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
   background-color: #FFFFFF;
   border-radius: 16px;
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.directions__item:hover, .directions__itemfocus {
+  -webkit-box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.295);
+          box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.295);
 }
 
 .directions__title {
@@ -472,6 +504,21 @@ img {
   height: 3px;
   border-radius: 50%;
   background-color: black;
+}
+
+.overlay-link {
+  position: absolute;
+  right: -40px;
+  width: 40px;
+  height: 80%;
+  background-color: teal;
+  border-radius: 16px;
+  -webkit-transition: right 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: right 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.directions__item:hover .overlay-link {
+  right: 10px;
 }
 
 .reserve-offers {

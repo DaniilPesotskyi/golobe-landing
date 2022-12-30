@@ -64,6 +64,17 @@
     color: $clr-secondary-text;
 
     cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $clr-btn-hover;
+    }
+
+    &:active {
+        background-color: $clr-btn-active;
+    }
 }
 
 .promo-btn {
@@ -86,10 +97,18 @@
     padding: 11px 16px;
 
     border: 1px solid $clr-mint-green;
+    border-radius: 4px;
 
     font-family: $montserrat;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
     color: $clr-secondary-text;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border: 1px solid $clr-btn-hover;
+    }
 }
