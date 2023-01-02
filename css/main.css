@@ -567,4 +567,34 @@ img {
 .reserve-offers__btn {
   margin-left: auto;
   margin-right: auto;
+}
+
+.revievs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  overflow: hidden;
+}
+
+.revievs-list__item {
+  width: 425px;
+  height: 586px;
+}
+
+.revievs-list__rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+
+.google-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
 }/*# sourceMappingURL=main.css.map */
