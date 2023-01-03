@@ -578,8 +578,52 @@ img {
 }
 
 .revievs-list__item {
+  position: relative;
+  width: 450px;
+  height: 608px;
+  border-radius: 20px;
+  background-color: rgba(141, 211, 187, 0.4);
+}
+
+.revievs-list__reviev {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
   width: 425px;
-  height: 586px;
+  padding: 24px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.revievs-list__title {
+  margin-bottom: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #112211;
+}
+
+.revievs-list__text {
+  height: 37px;
+  margin-bottom: 12px;
+  overflow-y: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #112211;
+  opacity: 0.5;
+}
+
+.revievs-list__link {
+  display: block;
+  margin-left: 300px;
+  margin-bottom: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #112211;
 }
 
 .revievs-list__rate {
@@ -587,6 +631,38 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 12px;
+  margin-bottom: 20px;
+}
+
+.rate__icon-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.author__name {
+  margin-bottom: 4px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #112211;
+}
+
+.author__place {
+  margin-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #112211;
+  opacity: 0.5;
 }
 
 .google-link {
@@ -597,4 +673,5 @@ img {
       -ms-flex-align: center;
           align-items: center;
   gap: 8px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */
