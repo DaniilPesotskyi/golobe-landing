@@ -2,6 +2,8 @@
     display: flex;
     gap: 50px;
 
+    margin-bottom: 90px;
+
     overflow: hidden;
 }
 
@@ -10,15 +12,12 @@
 
     width: 450px;
     height: 608px;
-
-    border-radius: 20px;
-    background-color: rgba(141, 211, 187, 0.4);
 }
 
 .revievs-list__reviev {
     position: absolute;
-    bottom: 24px;
-    right: 24px;
+    top: 0;
+    left: 0;
 
     width: 425px;
     padding: 24px;
@@ -28,7 +27,7 @@
 }
 
 .revievs-list__title {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
     font-family: $gothic;
     font-size: 24px;
@@ -38,7 +37,7 @@
 
 .revievs-list__text {
     height: 37px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     overflow-y: hidden;
 
     font-family: $montserrat;
@@ -111,4 +110,17 @@
     gap: 8px;
 
     margin-bottom: 40px;
+}
+
+.revievs-list__bg {
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+
+    width: 425px;
+    height: 565px;
+
+    border-radius: 20px;
+    background-color: rgba(141, 211, 187, 0.4);
 }
