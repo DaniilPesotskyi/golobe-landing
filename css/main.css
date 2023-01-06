@@ -147,6 +147,18 @@ img {
   border: 1px solid #64be9f;
 }
 
+.subscribe-btn {
+  padding: 19px 16px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #112211;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
 .section-title-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -683,4 +695,90 @@ img {
   height: 565px;
   border-radius: 20px;
   background-color: rgba(141, 211, 187, 0.4);
+}
+
+.footer-subscribe-block {
+  padding: 0px 24px;
+  margin-bottom: -154px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 20px;
+  background-color: #CDEAE1;
+}
+
+.subscribe-form__title {
+  width: 350px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: 6px;
+  color: #112211;
+}
+
+.subscribe-form__subtitle {
+  margin-bottom: 8px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 4px;
+  color: #112211;
+}
+
+.subscribe-form__text {
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #112211;
+}
+
+.subscribe-form__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+.subscribe-form__input-wrap {
+  position: relative;
+}
+
+.subscribe-form__input {
+  outline: 0;
+}
+
+.subscribe-form__label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.footer {
+  padding: 218px 0px 64px 0px;
+  background-color: #8DD3BB;
+}
+
+.footer__social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+
+.footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

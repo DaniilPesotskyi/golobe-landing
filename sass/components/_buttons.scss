@@ -112,3 +112,18 @@
         border: 1px solid $clr-btn-hover;
     }
 }
+
+.subscribe-btn {
+    padding: 19px 16px;
+
+    border: 0;
+    border-radius: 4px;
+
+    background-color: $clr-blackish-green;
+
+    font-family: $montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: $clr-neutrals;
+}

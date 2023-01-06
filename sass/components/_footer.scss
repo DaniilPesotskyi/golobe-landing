@@ -1,74 +1,155 @@
 .footer-subscribe-block {
+    padding: 0px 24px;
+
+    margin-bottom: -154px;
+
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 20px;
+
+    background-color: $clr-footer-form;
+
 }
 
 .subscribe-form {
+
 }
 
 .subscribe-form__title {
+    width: 350px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    font-family: $gothic;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 6px;
+    color: $clr-secondary-text;
 }
 
 .subscribe-form__subtitle {
+    margin-bottom: 8px;
+
+    font-family: $gothic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    letter-spacing: 4px;
+    color: $clr-secondary-text;
 }
 
 .subscribe-form__text {
+    margin-bottom: 16px;
+
+    font-family: $montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: $clr-secondary-text;
 }
 
 .subscribe-form__form {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.subscribe-form__input-wrap {
+    position: relative;
+}
+
+.subscribe-form__input {
+    outline: 0;
+}
+
+.subscribe-form__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    pointer-events: none;
 }
 
 .footer__img {
+
 }
 
 .footer {
+    padding: 218px 0px 64px 0px;
+
+    background-color: $clr-mint-green;
 }
 
 .footer__l-links {
+
 }
 
 .footer__logo {
+
 }
 
 .footer__social-links {
+    display: flex;
+    gap: 12px;
 }
 
 .footer__social-wrap {
+
 }
 
 .footer-links-list {
+
 }
 
 .footer__destinations {
+
 }
 
 .footer__main-link {
+
 }
 
 .footer__destinations-list {
+
 }
 
 .footer__link {
+
 }
 
 .footer__activities {
+
 }
 
 .footer__activities-list {
+
 }
 
 .footer__blogs {
+
 }
 
 .footer__blogs-list {
+
 }
 
 .footer__about {
+
 }
 
 .footer__about-list {
+
 }
 
 .footer__contacts {
+
 }
 
 .footer__contacts-list {
+    
+}
+
+.footer-flex {
+    display: flex;
 }
